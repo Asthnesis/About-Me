@@ -1,0 +1,17 @@
+html{
+    width: 566px;
+    margin: auto;
+    background: #d3785d;
+    border: 1px solid white;
+}
+body{
+    text-align: center;
+    background-image: url(/Images/nyama.jpg);
+    background-repeat: no-repeat;
+    color: #f9ff21;
+}
+.image{
+    width:400px ;
+    border: 1px solid yellow;
+    border-radius: 10px;
+}

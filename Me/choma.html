@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="choma.css">
+    <title>Order a choma</title>
+    <script lang="javascript">
+        function placeOrder(form){
+        form.submit();
+        alert("Order placed");
+}
+    </script>
+</head>
+<body>
+    <h1>NYAMA CHOMA ZONE </h1>
+    <h3>For The best Chomas in Town</h3>
+    <h4><i>Get the best deal of nyama choma from chicken choma to mbuzi choma to cow choma</i></h4>
+    <img src="nyama.jpg" alt="nyama choma" class="image">
+    <fieldset>
+        <legend>We also do door to door delivery locally </legend>
+        <h3><i>Delivery Information</i></h3>
+    <label for="name">Name: </label>
+    <input type="text" name="name"><br><br>
+    <label for="address">Address: </label>
+    <input type="text" name="address" placeholder=""><br><br>
+    <label for="telephone">Telephone : </label>
+    <input type="tel" name="telephone" id="telephone"><br><br>
+    <label for="email">Email: </label>
+    <input type="email" name="email" id="email" placeholder="example@example.com"><br>
+    <input type="submit" value="Submit"><br>
+   </fieldset>
+   <h3>Choose your choma</h3>
+<fieldset>
+    <legend>Choma variety</legend>
+    <input type="radio" name="variety" value="Kuku choma">Kuku choma <br>
+    <input type="radio" name="variety" value="Nyama choma">Nyama choma <br>
+    <input type="radio" name="variety" value="Mbuzi choma">Mbuzi choma <br>
+    <input type="radio" name="variety" value="Kondoo choma">Kondoo choma<br>
+</fieldset>
+<fieldset>
+    <legend>Choose your kachumbari</legend>
+    <input type="checkbox" name="kachumbari" value="Onions">Onions
+    <input type="checkbox" name="kachumbari" value="tomatoes">Tomatoes
+    <input type="checkbox" name="kachumbari" value="dania">Dania
+    <input type="checkbox" name="kachumbari" value="avocado">Avocado
+    <input type="submit" value="Submit" accesskey="enter" onclick="placeOrder(this.form)">
+</fieldset>
+</body>
+</html>
