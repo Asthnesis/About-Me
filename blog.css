@@ -3,8 +3,13 @@ html{
     margin: auto;
     background: #303a53;
     color: #fdfdfd;
+    width:800px;
 }
-
+@media all and(orientation: portrait){
+    html{
+        width:auto;
+    }
+}
 .header{
     background-color: black;
     width: 100%;
