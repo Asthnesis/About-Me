@@ -3,7 +3,7 @@ html{
     background: #303a53;
     margin: auto;
     width: 800px;
-
+    align-items: center;
 }
 .header{
     background-color: #3e4a62;
